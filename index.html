@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Grids</title>
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns: 70% 30%;
+            /* grid-column-gap: 1em;
+            grid-row-gap: 1em; */
+
+            grid-gap: 1em;
+        }
+        .wrapper > div{
+            background: #eee;
+            padding: 1em;
+        }
+        .wrapper > div:nth-child(odd){
+            background: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut minima cupiditate maiores omnis quos ea et eaque explicabo dolorem, mollitia nihil at ducimus! Nesciunt, soluta facere voluptatem perferendis fuga cum praesentium nobis voluptatum maiores recusandae quae dolores ad, quos accusantium reiciendis accusamus quas. Dignissimos magni reprehenderit quibusdam delectus velit necessitatibus eos cum omnis ipsum, cupiditate est consequatur accusantium quod iste illo doloribus temporibus sint nostrum vitae. Non fuga iste, cupiditate rerum veniam tenetur dignissimos, quisquam quos porro magni sed impedit!
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eveniet modi provident at obcaecati beatae rerum laboriosam in saepe voluptatem illo deleniti, tempore corrupti qui reiciendis velit exercitationem est odio?
+        </div>
+
+        <div>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut minima cupiditate maiores omnis quos ea et eaque explicabo dolorem, mollitia nihil at ducimus! Nesciunt, soluta facere voluptatem perferendis fuga cum praesentium nobis voluptatum maiores recusandae quae dolores ad, quos accusantium reiciendis accusamus quas. Dignissimos magni reprehenderit quibusdam delectus velit necessitatibus eos cum omnis ipsum, cupiditate est consequatur accusantium quod iste illo doloribus temporibus sint nostrum vitae. Non fuga iste, cupiditate rerum veniam tenetur dignissimos, quisquam quos porro magni sed impedit!
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eveniet modi provident at obcaecati beatae rerum laboriosam in saepe voluptatem illo deleniti, tempore corrupti qui reiciendis velit exercitationem est odio?
+            </div>
+    </div>
+</body>
+</html>
